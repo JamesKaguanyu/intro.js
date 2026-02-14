@@ -1,8 +1,10 @@
-// Introduction module
-console.log("Welcome to the intro module!");
+const name = "James Kaguanyu";
+const age = 19; 
+const favoriteLanguage = "JavaScript";
 
-function introduction() {
-  return "Hello! This is an introduction.";
-}
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Favorite Programming Language:", favoriteLanguage);
 
-module.exports = introduction;
+
+
